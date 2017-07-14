@@ -5,11 +5,27 @@
 
     <com.dannysu.listlistlist.MultiLevelListView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="200dp"
         android:id="@+id/listView"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:background="#ffd5d5"
         android:padding="20dp" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:id="@+id/listView2"
+        android:layout_centerHorizontal="true"
+       android:layout_below="@+id/listView"/>
+    <Button
+        android:layout_width="100dp"
+        android:id="@+id/MyntraLayout"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listView2"
+        android:layout_centerHorizontal="true"
+        android:text="Myntra Layout"/>
+
+
 </RelativeLayout>
